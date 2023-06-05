@@ -121,7 +121,60 @@ function SideMenu() {
                 </Link>
             </li>
 
-           
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/addCategory">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">Add Category </span>
+                </Link>
+            </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/addProduct">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">Add Product</span>
+                </Link>
+            </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/manageProduct">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">Manage Product</span>
+                </Link>
+            </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/manageCategory">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">Manage Category</span>
+                </Link>
+            </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/editCategory">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">Edit Category</span>
+                </Link>
+            </li>
+            
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/editProduct">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">EditProduct</span>
+                </Link>
+            </li>
+            
           </ul>
           <div className="unlimited-access hide-menu">
             
