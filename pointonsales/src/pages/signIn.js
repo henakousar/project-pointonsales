@@ -114,7 +114,7 @@ function SignIn() {
                                   className="form-check-label text-dark"
                                   for="flexCheckChecked"
                                 >
-                                  Remeber this Device
+                                  Remember this Device
                                 </label>
                               </div>
                               <a

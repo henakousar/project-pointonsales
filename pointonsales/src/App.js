@@ -13,6 +13,7 @@ import EditCustomer from './pages/editCustomer';
 import SignIn from './pages/signIn';
 import RegistrationPage from './pages/registrationPage';
 import ManageUser from './pages/manageUser';
+import PointOnSales from './pages/pointOnSales';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/signin' element={<SignIn/>} />
         <Route path='/registration' element={<RegistrationPage/>} />
         <Route path='/manageuser' element={<ManageUser/>} />
+        <Route path='/pointonsales' element={<PointOnSales/>} />
        </Routes>
     </BrowserRouter>
   );

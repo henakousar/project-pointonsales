@@ -11,7 +11,7 @@ function SideMenu() {
       {/* <!-- Sidebar scroll--> */}
       <div>
         <div className="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.html" className="text-nowrap logo-img">
+          <a href="/" className="text-nowrap logo-img">
             <img src="../assets/images/logos/dark-logo.svg" width="180" alt="" />
           </a>
           <div className="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
@@ -118,6 +118,15 @@ function SideMenu() {
                     <i className="ti ti-layout-dashboard"></i>
                     </span>
                     <span className="hide-menu">Edit Customer</span>
+                </Link>
+            </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/pointonsales">
+                    <span>
+                    <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">Point On Sales</span>
                 </Link>
             </li>
 
