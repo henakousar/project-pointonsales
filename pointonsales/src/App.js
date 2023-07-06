@@ -19,6 +19,9 @@ import ManageUser from './pages/manageUser';
 import ManageCategory from './pages/manageCategory';
 import EditCategory from './pages/editCategory';
 import EditProduct from './pages/editProduct';
+import AddStock from './pages/addStock';
+import PhoneBook from './pages/phonebook';
+import Task1 from './pages/task1';
 
 function App() {
 
@@ -43,6 +46,9 @@ function App() {
         <Route path='/manageCategory' element={<ManageCategory/>} />
         <Route path='/editCategory' element={<EditCategory/>} />
         <Route path='/editProduct' element={<EditProduct/>} />
+        <Route path='/addStock' element={<AddStock/>} />
+        <Route path='/phoneBook' element={<PhoneBook/>} />
+        <Route path='/task1' element={<Task1/>} />
        </Routes>
     </BrowserRouter>
   );

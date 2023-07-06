@@ -174,6 +174,31 @@ function SideMenu() {
                     <span className="hide-menu">EditProduct</span>
                 </Link>
             </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/addStock">
+                    <span>
+                        <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">AddStock</span>
+                </Link>
+            </li>
+            
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/phoneBook">
+                    <span>
+                        <i className="ti ti-layout-dashboard"></i>
+                    </span>
+                    <span className="hide-menu">PhoneBook</span>
+                </Link>
+            </li>
+
+            <li className="sidebar-item">
+                <Link className="sidebar-link" to="/task1">
+                    <i className="ti ti-layout-dashboard"></i>
+                        <span className="hide-menu">Task1</span>
+                </Link>
+            </li>
             
           </ul>
           <div className="unlimited-access hide-menu">
