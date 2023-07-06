@@ -20,7 +20,7 @@ function RegistrationPage() {
                 <div class="card mb-0">
                   <div class="card-body">
                     <a
-                      href="./index.html"
+                      href="/"
                       class="text-nowrap logo-img text-center d-block py-3 w-100"
                     >
                       <img
@@ -136,7 +136,7 @@ function RegistrationPage() {
                                 type="password"
                                 class="form-control"
                                 id="exampleInputPassword1"
-                                name="password"
+                                name="confirmpassword"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
                                 value={values.confirmpassword}

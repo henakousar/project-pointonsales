@@ -11,7 +11,7 @@ function SideMenu() {
       {/* <!-- Sidebar scroll--> */}
       <div>
         <div className="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.html" className="text-nowrap logo-img">
+          <a href="/" className="text-nowrap logo-img">
             <img src="../assets/images/logos/dark-logo.svg" width="180" alt="" />
           </a>
           <div className="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
@@ -122,84 +122,15 @@ function SideMenu() {
             </li>
 
             <li className="sidebar-item">
-                <Link className="sidebar-link" to="/addCategory">
+                <Link className="sidebar-link" to="/pointonsales">
                     <span>
                     <i className="ti ti-layout-dashboard"></i>
                     </span>
-                    <span className="hide-menu">Add Category </span>
+                    <span className="hide-menu">Point On Sales</span>
                 </Link>
             </li>
 
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/addProduct">
-                    <span>
-                    <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">Add Product</span>
-                </Link>
-            </li>
-
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/manageProduct">
-                    <span>
-                    <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">Manage Product</span>
-                </Link>
-            </li>
-
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/manageCategory">
-                    <span>
-                    <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">Manage Category</span>
-                </Link>
-            </li>
-
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/editCategory">
-                    <span>
-                    <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">Edit Category</span>
-                </Link>
-            </li>
-            
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/editProduct">
-                    <span>
-                    <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">EditProduct</span>
-                </Link>
-            </li>
-
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/addStock">
-                    <span>
-                        <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">AddStock</span>
-                </Link>
-            </li>
-            
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/phoneBook">
-                    <span>
-                        <i className="ti ti-layout-dashboard"></i>
-                    </span>
-                    <span className="hide-menu">PhoneBook</span>
-                </Link>
-            </li>
-
-            <li className="sidebar-item">
-                <Link className="sidebar-link" to="/task1">
-                    <i className="ti ti-layout-dashboard"></i>
-                        <span className="hide-menu">Task1</span>
-                </Link>
-            </li>
-            
+           
           </ul>
           <div className="unlimited-access hide-menu">
             

@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import SideMenu from "./sideMenu";
 import TopBar from "./topBar";
 import { Formik } from "formik";
 
 function EditCustomer() {
+
+  const stateArr=[
+    {
+      stateName: "Tamilnadu",
+      stateCode: "TN",
+    },
+    {
+      stateName: "Bihar",
+      stateCode: "BR",
+    },
+    {
+      stateName: "Delhi",
+      stateCode: "DL",
+    },
+    {
+      stateName: "Kerala",
+      stateCode: "KL",
+    }
+    ];
+
+    const [stateObj,setStateobj] =useState(stateArr);
+
   return (
     <>
       <div
@@ -194,9 +216,9 @@ function EditCustomer() {
                               <option selected disabled value="">
                                 Choose...
                               </option>
-                              <option>TamilNadu</option>
-                              <option>Kerala</option>
-                              <option>Delhi</option>
+                              {stateObj.map(function(data,index){
+                              return <option value={data.stateCode}>{data.stateName}</option>
+                              })}
                             </select>
                           </div>
                         </div>
